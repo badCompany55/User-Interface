@@ -64,3 +64,177 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+  box-sizing: border-box;
+}
+
+  /* container layout */
+
+body {
+  margin: 20px;
+  width: 100%;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  
+}
+
+.main_content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.row_one {
+  display: inline-block;
+  width: 48%;
+}
+
+.row_two {
+  display: inline-block;
+  width: 30%;
+}
+
+.padd {
+  margin-left: 20px;
+}
+
+.img_container img {
+  width: 700px;
+  padding: 20px 0;
+}
+
+.services {
+  padding-top: 70px;
+}
+
+.services h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.services_container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/* header/footer */
+
+header {
+  width: 700px;
+  position: fixed;
+  background-color:aliceblue;
+  padding-bottom: 0px;
+}
+
+.navigation {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0px 15px;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+  width: 12%;
+  margin: 0;
+  padding: 0;
+}
+
+footer .copywrite {
+  margin: 70px 0px;
+  text-align: center;
+}
+
+/* images */
+
+.intro .heading, .intro img {
+  margin-top: 75px;
+}
+
+.logo {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+}
+
+.intro div {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  vertical-align: top; 
+  margin-bottom: 0px;
+  padding-top: 100px;
+}
+
+h1 span {
+  display: block;
+  font-size: 60px;
+}
+
+.code_img {
+  display: inline-block;
+  width: 40%;
+  margin: 30px 0px;
+}
+
+
+
+
+
+/* buttons/links */
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: arial;
+}
+
+a:hover {
+  animation-name: color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes color {
+  100% {
+    background-color: #778899;
+    color: white;
+  }
+}
+
+.intro .button_container {
+  padding-top: 15px;
+}
+
+.button {
+  border: 1px solid gray;
+  padding: 6px 30px;
+}
+
+.services_container h2, .services_container p { 
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.services_container h2 {
+  vertical-align: top;
+}
+
